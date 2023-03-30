@@ -19,8 +19,8 @@ Rails.application.routes.draw do
   # Do NOT uncomment more than one at a time, or you'll be dealing with multiple syntax errors at once.
 
   # get("/zodiacs/aries", { :controller => "fire", :action => "ram" })
-  # get("/zodiacs/leo", { :controller => "fire", :action => "lion" })
-  # get("/zodiacs/sagittarius" { :controller => "fire", :action => "archer" })
+  get("/zodiacs/leo", { :controller => "fires", :action => "lion" })
+  get("/zodiacs/sagittarius", { :controller => "fires", :action => "archer" })
 
   # get("/zodiacs/taurus", { :controller, "earth", :action, "bull" })
   # get("/zodiacs/virgo", { :controller => "earth", :action => "maiden" })
@@ -28,11 +28,11 @@ Rails.application.routes.draw do
 
   get("/zodiacs/gemini", { :controller => "air", :action => "twins" })
   get("/zodiacs/libra", { :controller => "air", :action => "scales" })
-  # get ("/zodiacs/aquarius", { :controller => "air", :action => "waterbearer" })
+  get("/zodiacs/aquarius", { :controller => "air", :action => "waterbearer" })
 
-  # get("/zodiacs/cancer " { :controller => "earth" :action => "crab" })
-  # get("/zodiac/ scorpio", { :controller => "Water", :action => "scorpion" })
-  # get("/zodiacs/pisces", { :controller => "water", :action => "fish " })
+  # get("/zodiacs/cancer " { :controller => "water", :action => "crab" })
+  #get("/zodiacs/scorpio", { :controller => "water", :action => "scorpion" })
+  # get("/zodiacs/pisces", { :controller => "water", :action => "fish" })
 
   # PART 3: MORE R→C→A→V PRACTICE
   # ==========================
